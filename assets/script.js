@@ -28,7 +28,6 @@ for (var i = 1; i <= 9 ; i++) {
     } 
 }
 
-
 // event listeners for buttons saving text to local storage when the corresponding save button is clicked
 $("button").on("click", function () {
     var key = $(this).prev().attr("id");
